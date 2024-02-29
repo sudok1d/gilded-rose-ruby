@@ -18,6 +18,7 @@ class GildedRose
     when 'Backstage passes to a TAFKAL80ETC concert'
       return backstage_tick
     end
+  end
 
   def normal_tick
     @days_remaining -= 1
